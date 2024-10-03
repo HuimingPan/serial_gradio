@@ -100,5 +100,5 @@ class Interface:
             if ser.in_waiting > 0:
                 ser.write(message.encode('utf-8'))
 
-    def launch(self):
-        self.demo.launch()
+    def launch(self, *args, **kwargs):
+        self.demo.launch(*args, **kwargs)
