@@ -2,6 +2,7 @@
 
 ## 介绍
 使用 Gradio 实现的串口传输助手，支持发送和接收数据。
+![Scrrenshot](./screenshot.jpg)
 
 ## 使用
 1. 下载代码 
